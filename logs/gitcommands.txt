@@ -8,9 +8,9 @@ git branch                            --patikrinti atšaką
 git branch -M main                    --pervadina pagrindine atšaką į main
 git branch  branch name               --sukurti atsaką
 git branch -D branch name             --ištrinti atšaką
-git checkout branch name              --persijungti prie reikiamos atšakos
+git checkout name                     --persijungti prie reikiamos atšakos
 git checkout -b new                   --sukurti ir persijungti prie reikiamos atšakos
-git merge branch name			      --sujungti atšakas 
+git merge name      			      --sujungti atšakas 
 
 git config --global user.email        			--parodyti 
 git config --global user.email "email address" 	--pervadinti
