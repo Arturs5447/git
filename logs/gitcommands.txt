@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-git pull							  --įkrauti iš GitHun
-=======
 git pull https://github.com/Arturs5447/git.git							  --įkrauti iš GitHun
->>>>>>> 2191b34f36bf37785cb8af843ea64c379559f3ed
 git status
 git init                              --inicializacija projekto
 git add .                             --įkelti visus failus
@@ -25,8 +21,4 @@ git config --global user.name "you name" 		--pervadinti
 git remote add origin https://github.com/Arturs5447/git.git  --nurodyti kelia prie projekto
 git push -u origin main								 --įkelti projektą į GitHub-ą
 
-<<<<<<< HEAD
 git clone https://github.com/....                            --perkelti į savo kompiuterį
-=======
-git clone https://github.com/....                            --perkelti į savo kompiuterį
->>>>>>> 2191b34f36bf37785cb8af843ea64c379559f3ed
