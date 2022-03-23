@@ -1,1 +1,1 @@
-Git and github courses
+Git and github courses for me.
