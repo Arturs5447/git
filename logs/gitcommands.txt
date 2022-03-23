@@ -1,3 +1,4 @@
+git pull							  --įkrauti iš GitHun
 git status
 git init                              --inicializacija projekto
 git add .                             --įkelti visus failus
