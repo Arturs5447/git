@@ -1,1 +1,1 @@
-Git and github courses. Test.
+Git and github courses.
