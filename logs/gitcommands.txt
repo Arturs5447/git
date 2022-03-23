@@ -1,4 +1,4 @@
-git pull							  --įkrauti iš GitHun
+git pull https://github.com/Arturs5447/git.git							  --įkrauti iš GitHun
 git status
 git init                              --inicializacija projekto
 git add .                             --įkelti visus failus
