@@ -16,3 +16,4 @@ git config --global user.name "you name" 		--pervadinti
 
 git remote add origin https://github.com/Arturs5447/git.git  --nurodyti kelia prie projekto
 git push -u origin master									 --įkelti projektą į GitHub-ą
+git reset --hard 0d1d7fc32e5a947fbd92ee598033d85bfc445a50    --gražina projektą prie ankstesnio commit-o
