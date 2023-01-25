@@ -1,13 +1,17 @@
+git pull https://github.com/Arturs5447/git.git							  --įkrauti iš GitHun
 git status
 git init                              --inicializacija projekto
-git add "filename"
-git commit -m "commit name"
-git branch                            --patikrinti atsaką
+git add .                             --įkelti visus failus
+git add "filename"					   --įkelti įrašyta failą
+git commit                            --įrašo pakeitimus
+git commit -m "commit name"			  --įrašo pakeitimus su pavadinimu
+git branch                            --patikrinti atšaką
+git branch -M main                    --pervadina pagrindine atšaką į main
 git branch  branch name               --sukurti atsaką
 git branch -D branch name             --ištrinti atšaką
-git checkout branch name              --persijungti prie reikiamos atšakos
+git checkout name                     --persijungti prie reikiamos atšakos
 git checkout -b new                   --sukurti ir persijungti prie reikiamos atšakos
-git merge branch name			      --sujungti atšakas 
+git merge name      			      --sujungti atšakas 
 
 git config --global user.email        			--parodyti 
 git config --global user.email "email address" 	--pervadinti
@@ -16,4 +20,8 @@ git config --global user.name "you name" 		--pervadinti
 
 git remote add origin https://github.com/Arturs5447/git.git  --nurodyti kelia prie projekto
 git push -u origin master									 --įkelti projektą į GitHub-ą
+git push -u origin main								 --įkelti projektą į GitHub-ą
+
+git clone https://github.com/....                            --perkelti į savo kompiuterį
+
 git reset --hard 0d1d7fc32e5a947fbd92ee598033d85bfc445a50    --gražina projektą prie ankstesnio commit-o
